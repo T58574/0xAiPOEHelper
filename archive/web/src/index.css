@@ -1,0 +1,100 @@
+/* Custom Sci-Fi Brutalism & Frosted Matte Glassmorphism */
+
+:root {
+  --bg-matte: #05070a;
+  --panel-matte: rgba(11, 15, 23, 0.8);
+  --accent-gold: #ffb000;
+  --accent-cyan: #00f0ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #05070a;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(255, 176, 0, 0.04) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(0, 240, 255, 0.04) 0%, transparent 40%),
+    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 28px 28px, 28px 28px;
+  color: #e2e8f0;
+  min-height: 100vh;
+}
+
+/* Glass Panels */
+.frosted-glass {
+  background: rgba(11, 15, 25, 0.75);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 12px 32px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+
+/* Sci-Fi Brutalist Cards */
+.brutal-card {
+  background: rgba(15, 21, 33, 0.85);
+  border-left: 3px solid #ffb000;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(16px);
+  border-radius: 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.brutal-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 176, 0, 0.12);
+}
+
+.brutal-card-cyan {
+  background: rgba(15, 21, 33, 0.85);
+  border-left: 3px solid #00f0ff;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(16px);
+  border-radius: 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.brutal-card-cyan:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 240, 255, 0.12);
+}
+
+/* Telemetry Font & Labels */
+.tech-font {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.tech-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #94a3b8;
+}
+
+.glow-amber {
+  text-shadow: 0 0 12px rgba(255, 176, 0, 0.5);
+}
+
+.glow-cyan {
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.5);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #05070a;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffb000;
+  border-radius: 0px;
+}

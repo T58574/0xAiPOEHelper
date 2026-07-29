@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="92" targetVersion="3_0" pantheonMajorGod="None" bandit="None" className="Witch" ascendClassName="Elementalist" mainSocketGroup="1">
+		<PlayerStat stat="TotalDPS" value="850000"/>
+		<PlayerStat stat="IgniteDPS" value="4800000"/>
+		<PlayerStat stat="WithIgniteDPS" value="5650000"/>
+		<PlayerStat stat="TotalEHP" value="48500"/>
+		<PlayerStat stat="Life" value="4500"/>
+		<PlayerStat stat="EnergyShield" value="1650"/>
+		<PlayerStat stat="Mana" value="1050"/>
+		<PlayerStat stat="ManaUnreserved" value="0"/>
+		<PlayerStat stat="FireResist" value="76"/>
+		<PlayerStat stat="ColdResist" value="75"/>
+		<PlayerStat stat="LightningResist" value="75"/>
+		<PlayerStat stat="ChaosResist" value="40"/>
+		<PlayerStat stat="Armour" value="21000"/>
+		<PlayerStat stat="EffectiveBlockChance" value="42"/>
+		<PlayerStat stat="EffectiveSpellBlockChance" value="28"/>
+	</Build>
+	<Skills activeSkillSet="1">
+		<SkillSet id="1">
+			<Skill mainActiveSkillCalcs="1" enabled="true" slot="Body Armour" mainActiveSkill="1">
+				<Gem enableGlobal2="true" quality="20" level="20" enabled="true" nameSpec="Vaal Arc"/>
+				<Gem enableGlobal2="true" quality="20" level="20" enabled="true" nameSpec="Unbound Ailments"/>
+				<Gem enableGlobal2="true" quality="20" level="20" enabled="true" nameSpec="Deadly Ailments"/>
+				<Gem enableGlobal2="true" quality="20" level="20" enabled="true" nameSpec="Cruelty"/>
+				<Gem enableGlobal2="true" quality="20" level="20" enabled="true" nameSpec="Swift Affliction"/>
+				<Gem enableGlobal2="true" quality="20" level="20" enabled="true" nameSpec="Ignite Proliferation"/>
+			</Skill>
+			<Skill enabled="true" slot="Gloves">
+				<Gem enableGlobal2="true" quality="20" level="20" enabled="true" nameSpec="Frostblink of Wintry Blast"/>
+				<Gem enableGlobal2="true" quality="20" level="20" enabled="true" nameSpec="Faster Casting"/>
+				<Gem enableGlobal2="true" quality="20" level="20" enabled="true" nameSpec="Increased Area of Effect"/>
+			</Skill>
+			<Skill enabled="true" slot="Weapon 1">
+				<Gem enableGlobal2="true" quality="0" level="20" enabled="true" nameSpec="Malevolence"/>
+				<Gem enableGlobal2="true" quality="0" level="20" enabled="true" nameSpec="Determination"/>
+				<Gem enableGlobal2="true" quality="0" level="20" enabled="true" nameSpec="Defiance Banner"/>
+			</Skill>
+			<Skill enabled="true" slot="Weapon 2">
+				<Gem enableGlobal2="true" quality="0" level="20" enabled="true" nameSpec="Penance Brand of Dissipation"/>
+				<Gem enableGlobal2="true" quality="0" level="20" enabled="true" nameSpec="Flame Surge"/>
+				<Gem enableGlobal2="true" quality="0" level="20" enabled="true" nameSpec="Arcanist Brand"/>
+			</Skill>
+			<Skill enabled="true" slot="Helmet">
+				<Gem enableGlobal2="true" quality="0" level="20" enabled="true" nameSpec="Molten Shell"/>
+				<Gem enableGlobal2="true" quality="0" level="20" enabled="true" nameSpec="Cast when Damage Taken"/>
+				<Gem enableGlobal2="true" quality="0" level="20" enabled="true" nameSpec="Flammability"/>
+			</Skill>
+		</SkillSet>
+	</Skills>
+	<Items activeItemSet="1">
+		<Item id="1">
+			Rarity: UNIQUE
+			Obliteration
+			Imbuded Wand
+			Implicits: 1
+			30% increased Spell Damage
+			Adds 30 to 45 Physical Damage to Spells
+			24% increased Cast Speed
+			Enemies killed have a 20% chance to Explode, dealing 40% of maximum Life as Chaos Damage
+		</Item>
+		<Item id="2">
+			Rarity: UNIQUE
+			Inpulsa's Broken Heart
+			Sadist Garb
+			Implicits: 0
+			+78 to maximum Life
+			28% increased Damage if you've Shocked an Enemy Recently
+			45% increased Effect of Shock
+			Shocked Enemies you Kill Explode, dealing 5% of their Maximum Life as Lightning Damage which cannot Shock
+			You cannot be Shocked
+		</Item>
+		<Item id="3">
+			Rarity: UNIQUE
+			Eye of Innocence
+			Jet Amulet
+			Implicits: 1
+			+30 to Mana
+			10% increased Damage
+			+55% to Fire Resistance
+			Take 100 Fire Damage when you Ignite an Enemy
+			2% of Fire Damage Leeched as Life
+		</Item>
+		<Item id="4">
+			Rarity: UNIQUE
+			Mokou's Embrace
+			Ruby Ring
+			Implicits: 1
+			+30% to Fire Resistance
+			+40 to Fire Resistance
+			+25% to Fire Damage over Time Multiplier
+			40% increased Cast Speed while Ignited
+			25% chance to be Ignited when Hit
+		</Item>
+		<Item id="5">
+			Rarity: UNIQUE
+			Berek's Respite
+			Two-Stone Ring
+			Implicits: 1
+			+16% to Cold and Lightning Resistances
+			+25 to Maximum Life
+			25% increased Damage with Fire Skills
+			When you Kill an Ignited Enemy, Inflict an Ignite with equivalent damage on all nearby Enemies
+			When you Kill a Shocked Enemy, Inflict a Shock with equivalent effect on all nearby Enemies
+		</Item>
+		<ItemSet id="1">
+			<Slot name="Weapon 1" itemId="1"/>
+			<Slot name="Body Armour" itemId="2"/>
+			<Slot name="Amulet" itemId="3"/>
+			<Slot name="Ring 1" itemId="4"/>
+			<Slot name="Ring 2" itemId="5"/>
+		</ItemSet>
+	</Items>
+</PathOfBuilding>

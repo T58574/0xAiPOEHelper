@@ -1,0 +1,100 @@
+#===============================================================================================================
+# 0xAiPOEHelper Custom Build Item Filter (PoE 3.29)
+# Active Profile: MasterT's Physical Soulwrest Necromancer
+# Active Stage: 1
+# Generated automatically by 0xAiPOEHelper Engine
+#===============================================================================================================
+
+#===============================================================================================================
+# [[0100]] 0xAiPOEHELPER BUILD OVERRIDE - STAGE 1: ACTS 1-5 (EARLY CAMPAIGN)
+#===============================================================================================================
+
+# --- 1. KEY LEVELING WEAPONS & SOCKET GROUPS (R-B-B & B-B-B 3-LINKS) ---
+Show # 0xAiPOE: R-B-B 3-Link Leveling Wands / Staves / Sceptres
+	Class "Wands" "Staves" "Sceptres"
+	LinkedSockets >= 3
+	SocketGroup "RBB"
+	AreaLevel <= 45
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 176 0 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 1 300
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Diamond
+
+Show # 0xAiPOE: B-B-B 3-Link Leveling Wands / Staves
+	Class "Wands" "Staves" "Sceptres"
+	LinkedSockets >= 3
+	SocketGroup "BBB"
+	AreaLevel <= 45
+	SetFontSize 42
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 200 255 255
+	SetBackgroundColor 0 30 50 255
+	PlayAlertSound 1 250
+	PlayEffect Cyan
+	MinimapIcon 1 Cyan Diamond
+
+# --- 2. MOVEMENT SPEED BOOTS & FLASKS ---
+Show # 0xAiPOE: Quicksilver Flask (Act 1 Quest & Drops)
+	BaseType == "Quicksilver Flask"
+	AreaLevel <= 60
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 255 128 255
+	SetBackgroundColor 0 50 20 255
+	PlayAlertSound 2 300
+	PlayEffect Green
+	MinimapIcon 0 Green Circle
+
+Show # 0xAiPOE: Movement Speed Boots (Early Acts)
+	Class "Boots"
+	AreaLevel <= 35
+	Rarity Magic Rare
+	SetFontSize 40
+	SetBorderColor 0 255 200 255
+	PlayEffect Cyan Temp
+
+# --- 3. RESISTANCE BASES & ESSENTIAL JEWELRY ---
+Show # 0xAiPOE: Two-Stone Rings (Fire/Cold/Light Resists)
+	BaseType == "Two-Stone Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Unset Ring"
+	AreaLevel <= 68
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 215 0 255
+	SetBackgroundColor 40 30 0 255
+	PlayEffect Yellow Temp
+	MinimapIcon 2 Yellow Square
+
+# --- 4. CHROMATIC VENDOR RECIPE (R-G-B LINKED) ---
+Show # 0xAiPOE: Chromatic Recipe (R-G-B)
+	SocketGroup "RGB"
+	AreaLevel <= 68
+	SetFontSize 38
+	SetTextColor 200 200 200 255
+	SetBorderColor 200 200 200 255
+	SetBackgroundColor 30 30 30 255
+	PlayEffect White Temp
+
+
+# --- BASIC CURRENCY & ESSENTIALS ---
+Show
+	Class "Stackable Currency"
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 240 150 0 255
+	SetBackgroundColor 20 20 20 255
+
+Show
+	Class "Maps" "Divination Card" "Skill Gems"
+	SetFontSize 40
+
+Show
+	Rarity Unique Rare
+	SetFontSize 38
+
+Hide
+	AreaLevel >= 68
+	Rarity Magic Normal
+	Class "Body Armours" "Helmets" "Gloves" "Boots" "Shields" "Wands" "Staves" "Sceptres" "Bows" "Claws" "Daggers" "Axes" "Swords" "Maces"
