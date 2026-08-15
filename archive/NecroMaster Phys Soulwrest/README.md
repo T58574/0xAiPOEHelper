@@ -68,7 +68,7 @@
 
 ## Содержание гайдов и Навигация
 
-1. [Гайд по прокачке и кампании (Acts 1–10)](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/leveling_and_progression.md) — Пошаговая прокачка с 1 по 10 Акт, связки камней, порядок Лабиринтов и свитч на Alberon's Warpath.
-2. [Экипировка и Крафт (Items & Crafting)](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/items_and_crafting.md) — 5 стадий развития шмота, сборка Анимированного Хранителя (AG), переход в Bonemeld CI и крафт колец 3.29.
-3. [Скиллы, Связки и Спектры (Skills & Spectres)](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/skills_and_spectres.md) — Полные связки сокетов, технология смены оружия X-swap, где искать и как поднимать лучших Спектров.
-4. [Механики и FAQ (Mechanics & FAQ)](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/faq_and_mechanics.md) — Разбор лимита 22 фантомов, бессмертие миньонов, Ghost Reaver лич ES, переход в CI и решение проблем.
+1. [Гайд по прокачке и кампании (Acts 1–10)](file:///~/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/leveling_and_progression.md) — Пошаговая прокачка с 1 по 10 Акт, связки камней, порядок Лабиринтов и свитч на Alberon's Warpath.
+2. [Экипировка и Крафт (Items & Crafting)](file:///~/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/items_and_crafting.md) — 5 стадий развития шмота, сборка Анимированного Хранителя (AG), переход в Bonemeld CI и крафт колец 3.29.
+3. [Скиллы, Связки и Спектры (Skills & Spectres)](file:///~/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/skills_and_spectres.md) — Полные связки сокетов, технология смены оружия X-swap, где искать и как поднимать лучших Спектров.
+4. [Механики и FAQ (Mechanics & FAQ)](file:///~/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/faq_and_mechanics.md) — Разбор лимита 22 фантомов, бессмертие миньонов, Ghost Reaver лич ES, переход в CI и решение проблем.

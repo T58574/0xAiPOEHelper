@@ -39,7 +39,7 @@ npm run dev
   "mcpServers": {
     "poe1-mcp-server": {
       "command": "node",
-      "args": ["c:/Users/user/Documents/projects/0xAiPOEHelper/dist/mcp/index.js"]
+      "args": ["~/projects/0xAiPOEHelper/dist/mcp/index.js"]
     }
   }
 }

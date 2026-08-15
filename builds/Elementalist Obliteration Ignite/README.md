@@ -53,5 +53,5 @@ This document reflects the exact imported character state from **[PoB https://po
 
 ## 📁 Guide Index
 
-1. [Items & Crafting Strategy](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/Elementalist%20Obliteration%20Ignite/items_and_crafting.md)
-2. [Skills & Gem Links Guide](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/Elementalist%20Obliteration%20Ignite/skills_and_gem_links.md)
+1. [Items & Crafting Strategy](file:///~/projects/0xAiPOEHelper/builds/Elementalist%20Obliteration%20Ignite/items_and_crafting.md)
+2. [Skills & Gem Links Guide](file:///~/projects/0xAiPOEHelper/builds/Elementalist%20Obliteration%20Ignite/skills_and_gem_links.md)

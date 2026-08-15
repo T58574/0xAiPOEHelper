@@ -24,7 +24,7 @@ Welcome to **0xAiPOEHelper**. This document provides persistent context and repo
 - **Class / Ascendancy**: Witch -> Necromancer (Catarina Bloodline)
 - **Archetype**: Minion League Starter / Beyblade Cyclone CWC / Chaos Inoculation (CI)
 - **Primary PoB Link**: [https://pobb.in/8ggfuWXTU3wi](https://pobb.in/8ggfuWXTU3wi)
-- **Detailed Documentation Path**: [builds/NecroMaster Phys Soulwrest/](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/)
+- **Detailed Documentation Path**: [builds/NecroMaster Phys Soulwrest/](file:///~/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/)
 
 ### Key Mechanics Summary
 1. **22 Phantasms Tech**: Staff inherent level 25 `Summon Phantasm` (11 limit) stacks with socketed level 21 `Summon Phantasm Support` gem (11 limit) for a total of **22 Phantasms**.

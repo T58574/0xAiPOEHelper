@@ -18,12 +18,12 @@ This document serves as a persistent summary for future AI assistant sessions.
 
 - **Build Name**: MasterT's Physical Soulwrest Necromancer (PoE 3.29 CotA)
 - **Primary PoB**: [https://pobb.in/8ggfuWXTU3wi](https://pobb.in/8ggfuWXTU3wi)
-- **Documentation Directory**: [builds/NecroMaster Phys Soulwrest/](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/)
-  - [README.md](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/README.md) - Master Overview & Patch Changes
-  - [leveling_and_progression.md](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/leveling_and_progression.md) - Acts 1-10 leveling guide
-  - [items_and_crafting.md](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/items_and_crafting.md) - Gear progression & AG setup
-  - [skills_and_spectres.md](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/skills_and_spectres.md) - Gem setups & Spectres guide
-  - [faq_and_mechanics.md](file:///c:/Users/user/Documents/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/faq_and_mechanics.md) - Mechanics & FAQ
+- **Documentation Directory**: [builds/NecroMaster Phys Soulwrest/](file:///~/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/)
+  - [README.md](file:///~/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/README.md) - Master Overview & Patch Changes
+  - [leveling_and_progression.md](file:///~/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/leveling_and_progression.md) - Acts 1-10 leveling guide
+  - [items_and_crafting.md](file:///~/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/items_and_crafting.md) - Gear progression & AG setup
+  - [skills_and_spectres.md](file:///~/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/skills_and_spectres.md) - Gem setups & Spectres guide
+  - [faq_and_mechanics.md](file:///~/projects/0xAiPOEHelper/builds/NecroMaster%20Phys%20Soulwrest/faq_and_mechanics.md) - Mechanics & FAQ
 
 ---
 
